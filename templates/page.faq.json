@@ -1,0 +1,181 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "19005efb-2860-422d-a1ff-bb0a686ea693": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "When will I notice results?",
+            "content": "<p>Depending on your dog, you should first start to notice the benefits within <strong>approximately 6-8 weeks.<\/strong><\/p><p>If this is the first time of giving your dog a joint support supplement, you should give them double the recommended amount for the first 4-6 weeks. This will help fast track the supplement's benefits.<\/p><p>This will help to support their natural glucosamine reserves and help to get them moving that much quicker.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "9b293e63-5c77-495b-9866-75a5fce47511": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I give my dog Jointsure?",
+            "content": "<p>Although most dogs find the taste of Jointsure tablets enjoyable and will quite happily take them directly, the tablets have been specifically manufactured to be easily crumbled into food for ease of use.<\/p><p>For best results, we suggest you double the recommended daily serving for the first 4 – 6 weeks of use.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "ab64ed69-0f9a-462d-a706-76001b206f5c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How does Jointsure work?",
+            "content": "<p>A dog’s joints (just like our own) are cushioned against the impact of walking and running, and the general wear and tear of daily life, by a combination of cartilage (a flexible, rubbery tissue that cushions and protects the bones where they meet) and synovial fluid (a thick, slippery liquid that lubricates the joint for easy movement).<\/p><p>As dogs age, their ability to maintain this joint protection system can cause stiffness and affect their mobility.<\/p><p>Jointsure works by replenishing the nutrients required to maintain your dog’s own natural joint protection system, and includes active ingredients that works in synergy with these nutrients to allow them to be absorbed more easily and effectively.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "276cfbd2-c645-4d97-976d-05fcaed237ea": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How much Glucosamine and Green Lipped Mussel is in Jointsure?",
+            "content": "<p>Each individual Jointsure tablet contains 260mg of high-strength glucosamine and 155mg of green lipped mussel extract.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "68dead60-35c7-4de5-a6a0-a76d6f28b7ba": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Can I use Jointsure to help my dog when they are young?",
+            "content": "<p>Yes you can, in fact many veterinarians recommend supplementing the diets of breeds known more for stiff joints.<\/p><p>In particular, larger and heavier breeds – for instance, German Shepherds, Golden and Labrador Retrievers, Newfoundlands, Saint Bernards, Rottweilers, Great Danes, Mastiffs and Old English Sheepdogs – are more likely to experience stiffness as they get older.<\/p><p>Certain smaller breeds, such as Dachshunds, Bulldogs and Basset Hounds, could also benefit from early supplementation with Jointsure as their breeds are known for developing stiffness.<\/p><p>You should always consult your veterinarian prior to beginning any form of dietary supplementation.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "19c97694-c7ad-44e9-863e-3b3b8576145d": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why are Jointsure tablets cheaper than others?",
+            "content": "<p>We believe looking after your dog's health should be accessible and affordable. Jointsure tablets are excellent value for money!<\/p><p>As a long established and major manufacturer of supplements, we have the purchasing power to be able to source and purchase our ingredients at best prices.<\/p><p>We also manufacture all of our products (including packaging and marketing) in-house, without the need to outsource, so are able to pass these cost savings onto our customers.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "a0bf4bbf-7816-45a6-861c-60fee3924206": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How many tablets should I give my dog?",
+            "content": "<p>The Daily Portion Guide for Jointsure is based on the weight of your dog. Check out the 'Serving guide' section of each product to know exactly how much to give. <\/p><p>We recommend that if giving more than 1 tablet per day you should spread the tablets out over the day – for instance, if your dog needs 3 tablets per day, you would give one in the morning, one at lunchtime and the third in the evening.<\/p><p><strong><br\/>TOP TIP<\/strong><\/p><p>A good tip to find out how much your dog weighs – especially if your dog is reluctant to stand on a set of scales by itself – would be to weigh yourself on the scales, making a note of the weight, and then to pick up your dog and then re-weigh, again noting the new combined weight. It is then a simple case of subtracting the first weight from the second to give you the weight of your dog.<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        }
+      },
+      "block_order": [
+        "19005efb-2860-422d-a1ff-bb0a686ea693",
+        "9b293e63-5c77-495b-9866-75a5fce47511",
+        "ab64ed69-0f9a-462d-a706-76001b206f5c",
+        "276cfbd2-c645-4d97-976d-05fcaed237ea",
+        "68dead60-35c7-4de5-a6a0-a76d6f28b7ba",
+        "19c97694-c7ad-44e9-863e-3b3b8576145d",
+        "a0bf4bbf-7816-45a6-861c-60fee3924206"
+      ],
+      "settings": {
+        "enable_sticky_info": false,
+        "hide_variants": true,
+        "enable_video_looping": false
+      }
+    },
+    "16376221992a91cc10": {
+      "type": "multicolumn",
+      "blocks": {
+        "16376221992020446c-0": {
+          "type": "column",
+          "settings": {
+            "title": "💫 MULTI FUNCTIONAL",
+            "text": "<p>Bring back the spring in your hounds step with our multi functional premium tablets for adult & senior dogs. Make sure to check the recommended serving size for your pet and simply crumble into food!<\/p>"
+          }
+        },
+        "16376221992020446c-1": {
+          "type": "column",
+          "settings": {
+            "title": "💪 GREAT FOR",
+            "text": "<p>A premium, natural formula for stiff & older dogs. Our advance formula will aid with maintaining joint mobility, sooth joint stiffness & support joint structure.<\/p>"
+          }
+        },
+        "16376221992020446c-2": {
+          "type": "column",
+          "settings": {
+            "title": "💊 7 ACTIVE INGREDIENTS",
+            "text": "<p>Green Lipped Mussel, Glucosamine, Natural Chondroitin, Vitamins C and E, Manganese & Hyaluronic Acid. Formulated to treat stiffness while supporting & maintaining normal joint function.<\/p>"
+          }
+        },
+        "9f8c72c3-4a82-4e04-a494-aa426db86820": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ QUALITY ASSURED",
+            "text": "<p>Our Dog Supplements are manufactured in our UK facility, based in Cardiff. We hold GMP & the internationally recognised ISO 9001 Certification, meaning we maintain quality & consistency across all of our products.<\/p>"
+          }
+        },
+        "af3e11be-f288-40a2-9397-cc5d9775e871": {
+          "type": "column",
+          "settings": {
+            "title": "💡 ABOUT JOINTSURE",
+            "text": "<p>For over 30 years Vetwell Scientific have been manufacturing premium animal health supplements that have earned the trust of champion breeders & owners nationwide.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16376221992020446c-0",
+        "16376221992020446c-1",
+        "16376221992020446c-2",
+        "9f8c72c3-4a82-4e04-a494-aa426db86820",
+        "af3e11be-f288-40a2-9397-cc5d9775e871"
+      ],
+      "settings": {
+        "title": "Benefits of Jointsure",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16376235035bf358c4": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16382734209e499b9d": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "If you have any more questions, please get in touch. We look forward to hearing from you!"
+      }
+    },
+    "1638273765aeb112e9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16376221992a91cc10",
+    "product-recommendations",
+    "16376235035bf358c4",
+    "16382734209e499b9d",
+    "1638273765aeb112e9"
+  ]
+}

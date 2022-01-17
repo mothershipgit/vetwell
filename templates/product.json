@@ -1,0 +1,139 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "42bfe87c-cdc1-4b1c-ac12-d183e2d51efe": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.product_subtitle.value }}",
+            "text_style": "uppercase"
+          }
+        },
+        "subtitle": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "f2dd4d01-a80c-45b7-8350-43494f180e31": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "1a5037f1-c292-48d9-85c0-e73292cefb45": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Serving Guide",
+            "content": "<p>{{ product.metafields.my_fields.product_serving_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "835ac053-016d-421c-8b67-b4845aa93f65": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "leaf"
+          }
+        },
+        "a9feb082-23f0-4f44-b128-0fda61a25eb3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "content": "<p>Please allow 3-5 working days<br\/>for delivery. For more information, refer to our shipping policy. If you change your mind, you can return your Vetwell products at any time within 30 days from date of purchase.<br\/><br\/>Email our customer care team at<span style=\"text-decoration:underline\">info@vetwellscientific.co.uk<\/span>who will register your return.<\/p>",
+            "page": "",
+            "icon": "box"
+          }
+        },
+        "f0e13fc3-91d2-4690-882d-0419dd559259": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Safety Information",
+            "content": "<p>{{ product.metafields.my_fields.product_safety | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "6f859b16-a1a2-41ce-b90b-f38948b79c54": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "42bfe87c-cdc1-4b1c-ac12-d183e2d51efe",
+        "subtitle",
+        "price",
+        "f2dd4d01-a80c-45b7-8350-43494f180e31",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "1a5037f1-c292-48d9-85c0-e73292cefb45",
+        "835ac053-016d-421c-8b67-b4845aa93f65",
+        "a9feb082-23f0-4f44-b128-0fda61a25eb3",
+        "f0e13fc3-91d2-4690-882d-0419dd559259",
+        "6f859b16-a1a2-41ce-b90b-f38948b79c54"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": true,
+        "enable_video_looping": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations"
+  ]
+}

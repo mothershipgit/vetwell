@@ -1,0 +1,334 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1637928657b641aeb3": {
+      "type": "image-banner",
+      "blocks": {
+        "16379286578b503f40-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The science behind JointSure",
+            "heading_size": "large"
+          }
+        },
+        "16379286578b503f40-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "16379286578b503f40-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16379286578b503f40-0",
+        "16379286578b503f40-1",
+        "16379286578b503f40-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_6.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "1637928971d84aa806": {
+      "type": "image-with-text",
+      "blocks": {
+        "163792897167d9f14e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "A powerful combination"
+          }
+        },
+        "163792897167d9f14e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>JointSure<\/strong> supplements for dogs combine 7 scientifically proven active ingredients. The result is a triple-action formula that helps dogs stay active and mobile by:<\/p><p>• soothing joint stiffness<br\/>• supporting joint structure<br\/>• maintaining joint mobility<\/p>"
+          }
+        },
+        "163792897167d9f14e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163792897167d9f14e-0",
+        "163792897167d9f14e-1",
+        "163792897167d9f14e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_128.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "16379292991f6a9c73": {
+      "type": "multicolumn",
+      "blocks": {
+        "1637929299156220ef-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1.png",
+            "title": "Glucosamine ",
+            "text": ""
+          }
+        },
+        "1637929299156220ef-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1.png",
+            "title": "Green lipped mussel extract ",
+            "text": ""
+          }
+        },
+        "1637929299156220ef-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1.png",
+            "title": "Natural Chondroitin",
+            "text": ""
+          }
+        },
+        "bea63d8e-d442-4e05-ad71-427d3df6ba01": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1.png",
+            "title": "Vitamin C ",
+            "text": ""
+          }
+        },
+        "4434b4eb-ab0c-45eb-a078-fc338158a5a2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1.png",
+            "title": "Vitamin E",
+            "text": ""
+          }
+        },
+        "e7c4412b-945e-464d-a7f1-fd4cd1d21282": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1.png",
+            "title": "Manganese",
+            "text": ""
+          }
+        },
+        "128bbcfd-730c-4be1-b90c-788e7761562d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse_1.png",
+            "title": "Hyaluronic acid",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637929299156220ef-0",
+        "1637929299156220ef-1",
+        "1637929299156220ef-2",
+        "bea63d8e-d442-4e05-ad71-427d3df6ba01",
+        "4434b4eb-ab0c-45eb-a078-fc338158a5a2",
+        "e7c4412b-945e-464d-a7f1-fd4cd1d21282",
+        "128bbcfd-730c-4be1-b90c-788e7761562d"
+      ],
+      "settings": {
+        "title": "7 scientifically proven active ingredients",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "16379296579dd779f2": {
+      "type": "image-with-text",
+      "blocks": {
+        "16379296576163bd78-0": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "16379296576163bd78-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Green lipped mussel extract<\/strong><br\/>A natural source of unique omega-3 fatty acids and other beneficial ingredients, including amino acids, vitamins, minerals, enzymes, carbohydrates and antioxidants. The benefits to your dog are ‘supercharged’ with the addition of high strength glucosamine.<\/p><p><strong>Glucosamine<br\/><\/strong>Naturally present in animals and humans, it supports your dog’s cartilage, maintains joint mobility and soothes joint stiffness. <\/p><p><strong>Chondroitin<\/strong><br\/>Present in the fluid around your dog’s joints. By lubricating and cushioning the joints, it helps to alleviate stiffness.<\/p>"
+          }
+        },
+        "16379296576163bd78-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16379296576163bd78-0",
+        "16379296576163bd78-1",
+        "16379296576163bd78-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16379304497bb115cb": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637930449eed2363a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "1637930449eed2363a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Hyaluronic acid<\/strong><br\/>Present in the fluid around your dog’s joints. By lubricating and cushioning the joints, it helps to alleviate stiffness. <\/p><p><strong>Manganese<br\/><\/strong>Assists in collagen formation within the cartilage, tendons and ligaments by boosting your dog’s uptake of glucosamine.<\/p><p><strong>Vitamins C & E<\/strong><br\/>Together, these antioxidants neutralise free radicals, and help to maintain joint flexibility, healthy collagen and the elasticity of connective tissue.<\/p>"
+          }
+        },
+        "1637930449eed2363a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637930449eed2363a-0",
+        "1637930449eed2363a-1",
+        "1637930449eed2363a-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "163793055800d46cbf": {
+      "type": "image-banner",
+      "blocks": {
+        "1637930558c4162202-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Green lipped mussel extract",
+            "heading_size": "large"
+          }
+        },
+        "1637930558c4162202-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1637930558c4162202-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1637930558c4162202-0",
+        "1637930558c4162202-1",
+        "1637930558c4162202-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_113.png",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1637931926cfa907f9": {
+      "type": "rich-text",
+      "blocks": {
+        "16379319266f2d0d0c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "16379319266f2d0d0c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Native to New Zealand, green lipped mussel (Perna canaliculus) is a natural source of a unique omega-3 fatty acid called eicosatetraenoic acid (ETA). Extract of green lipped mussel has been scientifically proven to help maintain healthy cartilage – the tissue that cushions the joints – in both humans and animals.<\/p><p>Green lipped mussel extract also contains a variety of nutrients that may have a beneficial effect on joint health, including glycosaminoglycans (chondroitin sulfates), the omega-3 fatty acids eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), amino acids (glutamine and methionine), vitamins E and C, and essential minerals  – zinc, copper and manganese. The findings of scientific studies support the conclusion that dietary supplementation with green lipped mussel powder may be of particular benefit to older dogs with stiff joints.<\/p>"
+          }
+        },
+        "16379319266f2d0d0c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16379319266f2d0d0c-0",
+        "16379319266f2d0d0c-1",
+        "16379319266f2d0d0c-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1637928657b641aeb3",
+    "1637928971d84aa806",
+    "16379292991f6a9c73",
+    "16379296579dd779f2",
+    "16379304497bb115cb",
+    "163793055800d46cbf",
+    "1637931926cfa907f9"
+  ]
+}

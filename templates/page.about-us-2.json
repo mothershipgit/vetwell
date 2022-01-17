@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1637934459465c113a": {
+      "type": "image-banner",
+      "blocks": {
+        "1637934459728101ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We can help keep your dog moving",
+            "heading_size": "medium"
+          }
+        },
+        "1637934459728101ea-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1637934459728101ea-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1637934459728101ea-0",
+        "1637934459728101ea-1",
+        "1637934459728101ea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_7.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "163793450447666b26": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637934504481d8286-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": ""
+          }
+        },
+        "1637934504481d8286-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Our mission<\/strong><br\/>VetWell has been looking after the nation’s dogs for 30 years with <strong>JointSure<\/strong>: a range of expertly formulated canine joint care supplements.<br\/><br\/><strong>Quality guaranteed<\/strong><br\/>We have created a collection of nutritional supplements for dogs using scientifically proven ingredients and high quality manufacturing techniques. Growing pups and elderly dogs will feel better and move more comfortably.<\/p>"
+          }
+        },
+        "1637934504481d8286-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637934504481d8286-0",
+        "1637934504481d8286-1",
+        "1637934504481d8286-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16379346369385eb60": {
+      "type": "image-with-text",
+      "blocks": {
+        "1637934636d8153399-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": ""
+          }
+        },
+        "1637934636d8153399-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Active ingredients<\/strong><\/p><p>We have chosen 7 scientifically proven active ingredients [hyperlink to the science page] designed to complement each other. The result is JointSure [hyperlink to the shopping page]: a powerful triple-action formula that helps soothe joint stiffness, support joint structure, and maintain joint mobility. We have also created CalmSure [hyperlink to the shopping page] to provide support for your dog at times of stress or anxiety.<\/p>"
+          }
+        },
+        "1637934636d8153399-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1637934636d8153399-0",
+        "1637934636d8153399-1",
+        "1637934636d8153399-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1637934459465c113a",
+    "163793450447666b26",
+    "16379346369385eb60"
+  ]
+}

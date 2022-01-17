@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bring back their Bounce",
+            "heading_size": "medium"
+          }
+        },
+        "d9c33adc-c189-45f9-bfdf-020b53b7b362": {
+          "type": "text",
+          "settings": {
+            "text": "Natural joint care for bouncier, happier dogs"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "d9c33adc-c189-45f9-bfdf-020b53b7b362",
+        "button"
+      ],
+      "settings": {
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_text_box_position": "flex-start",
+        "show_text_box": false,
+        "image_overlay_opacity": 20,
+        "color_scheme": "accent-2",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "The care your best friend deserves",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>7 active ingredients working in synergy, designed to soothe stiff joints<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/science-101",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Magic in a Tub",
+            "text": "<p><\/p><p>My 14 year dog has been taking these for a few years now and the difference this has made to his quality of life is amazing!<\/p><p><\/p><p>Keeley, August 2021<\/p><p>⭐ ⭐ ⭐ ⭐ ⭐<\/p>"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "New lease of life for our 13 year old Spaniel",
+            "text": "<p>JointSure tables have given our thirteen year old springer spaniel a new lease of life. They are fantastic...<\/p><p>Elizabeth, August 2021<\/p><p>⭐ ⭐ ⭐ ⭐ ⭐<\/p>"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Great Product!",
+            "text": "<p>I was advised by my vet to consider getting a supplement to help her mobility. She has a new lease of life. This is the second time I've bought this, and the results are amazing. <strong>Five stars and highly recommended<\/strong>.<br\/>Peter Brown, April 2018<\/p><p>⭐ ⭐ ⭐ ⭐ ⭐<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column3",
+        "column2",
+        "column1"
+      ],
+      "settings": {
+        "title": "Over 2000 positive reviews!",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "163828526776df05c3": {
+      "type": "rich-text",
+      "blocks": {
+        "1638285267c3785f4d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "JOINTSURE SALE",
+            "heading_size": "h1"
+          }
+        },
+        "1638285267c3785f4d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get 3 for 2 on our best selling, triple action formula to maintain joint mobility, sooth joint stiffness & support joint structure.<\/p>"
+          }
+        },
+        "1638285267c3785f4d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP DEAL NOW",
+            "button_link": "https:\/\/vetwell-scientific-dev.myshopify.com\/products\/jointsure?variant=42091883725038",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1638285267c3785f4d-0",
+        "1638285267c3785f4d-1",
+        "1638285267c3785f4d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1638282408d5b06390": {
+      "type": "featured-product",
+      "blocks": {
+        "1638282408c4befad8-1": {
+          "type": "title",
+          "settings": {}
+        },
+        "1638282408c4befad8-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1638282408c4befad8-3": {
+          "type": "price",
+          "settings": {}
+        },
+        "1638282408c4befad8-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1638282408c4befad8-5": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "1638282408c4befad8-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "1638282408c4befad8-1",
+        "1638282408c4befad8-2",
+        "1638282408c4befad8-3",
+        "1638282408c4befad8-4",
+        "1638282408c4befad8-5",
+        "1638282408c4befad8-6"
+      ],
+      "settings": {
+        "product": "jointsure",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "all",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "rich_text",
+    "multi_column",
+    "163828526776df05c3",
+    "1638282408d5b06390",
+    "featured_products"
+  ]
+}
