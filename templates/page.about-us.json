@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1637934459465c113a": {
+      "type": "image-banner",
+      "blocks": {
+        "1637934459728101ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Looking after the nation’s dogs for over 30 years",
+            "heading_size": "medium"
+          }
+        },
+        "8dcbf4bb-b8d7-4539-8825-4b4b20496a0a": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        }
+      },
+      "block_order": [
+        "1637934459728101ea-0",
+        "8dcbf4bb-b8d7-4539-8825-4b4b20496a0a"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/VW_About_Us_V1_1024x1024_1400x_809a37db-6d00-40dc-a3d4-78cda905894f.jpg",
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 20,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "1638187757c4bea8a3": {
+      "type": "rich-text",
+      "blocks": {
+        "1638187757d817466a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mission",
+            "heading_size": "h2"
+          }
+        },
+        "1638187757d817466a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>VetWell has been looking after the Nation’s dogs for over 30 years with <strong>JointSure<\/strong>: a range of expertly formulated canine joint care supplements.<br\/><br\/>We have created a collection of nutritional supplements for dogs using scientifically proven ingredients and high quality manufacturing techniques. Growing pups and elderly dogs will feel better and move more comfortably.<\/p>"
+          }
+        },
+        "1638187757d817466a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Products",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1638187757d817466a-0",
+        "1638187757d817466a-1",
+        "1638187757d817466a-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16382676763c85f0e1": {
+      "type": "rich-text",
+      "blocks": {
+        "16382676760f90e6e7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're Health Specialists",
+            "heading_size": "h2"
+          }
+        },
+        "16382676760f90e6e7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are committed to sourcing only the finest ingredients and maintaining the highest standards of quality and hygiene during the production process, we ensure that the products we produce provide optimum veterinary and nutritional benefit.<\/p><p>We know that proper supplementation and nutrition can play a vital role in an animal’s ability to reach it’s optimum performance – whether in breeding or athletic ability – and over the years Vetwell Scientific has supplied the veterinary and animal supplements market with a combination of innovative products and a commitment to quality that has earned the trust of champion breeders and owners nationwide.<\/p>"
+          }
+        },
+        "16382676760f90e6e7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/science-101",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "16382676760f90e6e7-0",
+        "16382676760f90e6e7-1",
+        "16382676760f90e6e7-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1637934459465c113a",
+    "1638187757c4bea8a3",
+    "16382676763c85f0e1"
+  ]
+}

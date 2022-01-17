@@ -1,0 +1,355 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "3072ba01-85d8-42c2-834d-3997f54ed32c": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.my_fields.product_subtitle.value }}",
+            "text_style": "uppercase"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "d36abc2e-2b5f-4968-bacf-55af9e375124": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "d6a254c0-72f7-4eaa-8407-374dc8f38618": {
+          "type": "popup",
+          "disabled": true,
+          "settings": {
+            "text": "Serving Guide",
+            "page": "serving-guide"
+          }
+        },
+        "8df05c6a-131e-4d5e-8184-026c92dbc1fd": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Serving Guide",
+            "content": "<p>{{ product.metafields.my_fields.product_serving_guide | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "813740da-fe41-4dda-947f-753f5d37d79c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "leaf"
+          }
+        },
+        "c32cd74b-d0fe-439a-9189-4c455d1e037a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "content": "<p>Please allow 3-5 working days<br\/>for delivery. For more information, refer to our shipping policy. If you change your mind, you can return your Vetwell products at any time within 30 days from date of purchase.<br\/><br\/>Email our customer care team at <span style=\"text-decoration:underline\">info@vetwellscientific.co.uk<\/span><br\/>who will register your return.<\/p>",
+            "page": "",
+            "icon": "box"
+          }
+        },
+        "893ca32b-ec01-4c65-8634-4667bd368fa2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Safety Information",
+            "content": "<p>{{ product.metafields.my_fields.product_safety | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "question_mark"
+          }
+        },
+        "c8298416-ee20-41ce-92ca-fd8519767f36": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "3072ba01-85d8-42c2-834d-3997f54ed32c",
+        "price",
+        "d36abc2e-2b5f-4968-bacf-55af9e375124",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "d6a254c0-72f7-4eaa-8407-374dc8f38618",
+        "8df05c6a-131e-4d5e-8184-026c92dbc1fd",
+        "813740da-fe41-4dda-947f-753f5d37d79c",
+        "c32cd74b-d0fe-439a-9189-4c455d1e037a",
+        "893ca32b-ec01-4c65-8634-4667bd368fa2",
+        "c8298416-ee20-41ce-92ca-fd8519767f36",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "hide_variants": true,
+        "enable_video_looping": false
+      }
+    },
+    "16376237596c3ec4d1": {
+      "type": "multicolumn",
+      "blocks": {
+        "16376237590154784e-1": {
+          "type": "column",
+          "settings": {
+            "title": "Green Lipped Mussel, 155mg",
+            "text": "<p>A natural source of unique Omega-3 fatty acids and other beneficial ingredients, including amino acids, vitamins, minerals, enzymes, carbohydrates and antioxidants.<br\/><br\/>The benefits to your dog are ‘supercharged’ with the addition of high strength glucosamine.<br\/><br\/><\/p>"
+          }
+        },
+        "16376237590154784e-0": {
+          "type": "column",
+          "settings": {
+            "title": "Glucosamine, 260mg",
+            "text": "<p>Naturally present in animals and humans, it supports your dog’s cartilage, maintains joint mobility and soothes joint stiffness.<\/p>"
+          }
+        },
+        "ccec1fc7-6b14-45da-8ea0-de88eb04979c": {
+          "type": "column",
+          "settings": {
+            "title": "Chondroitin",
+            "text": "<p>Helps to maintain joint cartilage for longer, which keeps your dog mobile<\/p>"
+          }
+        },
+        "16376237590154784e-2": {
+          "type": "column",
+          "settings": {
+            "title": "Hyaluronic acid, 1.5mg",
+            "text": "<p>Present in the fluid around your dog’s joints. By lubricating and cushioning the joints, it helps to alleviate stiffness.<\/p>"
+          }
+        },
+        "6f48f0d1-8bf4-4248-b53e-2bf584cb45ea": {
+          "type": "column",
+          "settings": {
+            "title": "Manganese, 3mg",
+            "text": "<p>Assists in collagen formation within the cartilage, tendons and ligaments by boosting your dog’s uptake of glucosamine.<\/p>"
+          }
+        },
+        "7df8a5a9-ac92-42c7-b234-4236fc1767e7": {
+          "type": "column",
+          "settings": {
+            "title": "Vitamin C, 12.5mg & Vitamin E, 0.5mg",
+            "text": "<p>Together, these antioxidants neutralise free radicals, and help to maintain joint flexibility, healthy collagen and the elasticity of connective tissue.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16376237590154784e-1",
+        "16376237590154784e-0",
+        "ccec1fc7-6b14-45da-8ea0-de88eb04979c",
+        "16376237590154784e-2",
+        "6f48f0d1-8bf4-4248-b53e-2bf584cb45ea",
+        "7df8a5a9-ac92-42c7-b234-4236fc1767e7"
+      ],
+      "settings": {
+        "title": "Powerful, scientifically proven ingredients.",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "column_alignment": "left",
+        "background_style": "secondary",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/pages\/science-101",
+        "swipe_on_mobile": true
+      }
+    },
+    "163762291536b7c8b6": {
+      "type": "rich-text",
+      "blocks": {
+        "163762291504c4ac4d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "30 Years Experience in Animal Health",
+            "heading_size": "h1"
+          }
+        },
+        "163762291504c4ac4d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've been manufacturing premium animal health supplements for over 30 years and our track record has earned the trust of dog lovers across the UK.<\/p>"
+          }
+        },
+        "163762291504c4ac4d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "163762291504c4ac4d-0",
+        "163762291504c4ac4d-1",
+        "163762291504c4ac4d-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "16376221992a91cc10": {
+      "type": "multicolumn",
+      "blocks": {
+        "16376221992020446c-0": {
+          "type": "column",
+          "settings": {
+            "title": "💫 MULTI FUNCTIONAL",
+            "text": "<p>Bring back the spring in your hounds step with our multi functional premium tablets for adult & senior dogs. Make sure to check the recommended serving size for your pet and simply crumble into food!<\/p>"
+          }
+        },
+        "16376221992020446c-1": {
+          "type": "column",
+          "settings": {
+            "title": "💪 GREAT FOR",
+            "text": "<p>A premium, natural formula for stiff & older dogs. Our advance formula will aid with maintaining joint mobility, sooth joint stiffness & support joint structure.<\/p>"
+          }
+        },
+        "16376221992020446c-2": {
+          "type": "column",
+          "settings": {
+            "title": "💊 7 ACTIVE INGREDIENTS",
+            "text": "<p>Green Lipped Mussel, Glucosamine, Natural Chondroitin, Vitamins C and E, Manganese & Hyaluronic Acid. Formulated to treat stiffness while supporting & maintaining normal joint function.<\/p>"
+          }
+        },
+        "9f8c72c3-4a82-4e04-a494-aa426db86820": {
+          "type": "column",
+          "settings": {
+            "title": "✔️ QUALITY ASSURED",
+            "text": "<p>Our Dog Supplements are manufactured in our UK facility, based in Cardiff. We hold GMP & the internationally recognised ISO 9001 Certification, meaning we maintain quality & consistency across all of our products.<\/p>"
+          }
+        },
+        "af3e11be-f288-40a2-9397-cc5d9775e871": {
+          "type": "column",
+          "settings": {
+            "title": "💡 ABOUT JOINTSURE",
+            "text": "<p>For over 30 years Vetwell Scientific have been manufacturing premium animal health supplements that have earned the trust of champion breeders & owners nationwide.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16376221992020446c-0",
+        "16376221992020446c-1",
+        "16376221992020446c-2",
+        "9f8c72c3-4a82-4e04-a494-aa426db86820",
+        "af3e11be-f288-40a2-9397-cc5d9775e871"
+      ],
+      "settings": {
+        "title": "Benefits of Jointsure",
+        "image_width": "full",
+        "image_ratio": "circle",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "16376235035bf358c4": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1637845128e29aef27": {
+      "type": "collage",
+      "blocks": {
+        "c9603ac6-6676-4d74-bfdd-df31dd736518": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5876fd42-6fb7-436b-bbf9-b53e390def50.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "4d52b548-2bdd-40c4-af0a-a17de99d7280": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4062.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "0ff5066a-096d-4906-aff4-f49b3d18aa04": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Image_from_iOS_5.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "c9603ac6-6676-4d74-bfdd-df31dd736518",
+        "4d52b548-2bdd-40c4-af0a-a17de99d7280",
+        "0ff5066a-096d-4906-aff4-f49b3d18aa04"
+      ],
+      "settings": {
+        "heading": "Meet some of our Customers",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16376237596c3ec4d1",
+    "163762291536b7c8b6",
+    "16376221992a91cc10",
+    "product-recommendations",
+    "16376235035bf358c4",
+    "1637845128e29aef27"
+  ]
+}
