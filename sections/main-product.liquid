@@ -14,12 +14,77 @@
 <style>
   .js-variant-copy {
     margin: 0;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    line-height: calc(1 + .2 / var(--font-body-scale));
   }
   .js-variant-copy[data-hidden="true"] {
     display: none;
   }
   .js-variant-copy[data-hidden="false"] {
     display: block;
+  }
+
+  .form__label--subscription {
+    margin-top: 30px;
+  }
+
+  .rc-template__radio-group .rc-radio {
+    padding: 30px;
+  }
+
+  .rc-template__radio-group .rc-radio-group__options {
+    border-radius: 0 !important;
+    border: none !important;
+  }
+
+  .rc-template__radio-group .rc-radio .rc-radio__label {
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    line-height: calc(1 + .2 / var(--font-body-scale));
+  }
+
+  .rc-widget .rc-option {
+    border: 1px solid #ccc;
+  }
+
+  .rc-widget .rc-option--active {
+    background-color: rgba(var(--color-button),var(--alpha-button-background));
+    border-color: rgba(var(--color-button),var(--alpha-button-background));
+    color: white;
+  }
+
+  .rc_widget__option__input {
+    clip: rect(0,0,0,0);
+    overflow: hidden;
+    position: relative !important;
+    height: 16px !important;
+    width: 16px !important;
+  }
+
+  .rc-selling-plans {
+    background-color: rgba(var(--color-button),var(--alpha-button-background));
+    color: white;
+    padding: 0 40px 30px;
+    margin-top: 0 !important;
+  }
+
+  .rc-selling-plans__label {
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    line-height: calc(1 + .2 / var(--font-body-scale));
+    margin-right: 15px;
+  }
+
+  .rc-selling-plans__dropdown {
+    height: 40px;
+    padding: 5px 10px 5px 10px;
+    line-height: 25px;
+    border: none;
+  }
+
+  .spr-starrating {
+    justify-content: flex-start !important;
   }
 </style>
 
@@ -153,12 +218,7 @@
                 {%- endif -%}
               </div>
             {%- endif -%}
-            <div {{ block.shopify_attributes }}>
-              {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
-                <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
-                {{ form | payment_terms }}
-              {%- endform -%}
-            </div>
+
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte">
@@ -209,7 +269,18 @@
                   {% render 'icon-plus' %}
                 </button>
               </quantity-input>
+
+              <div {{ block.shopify_attributes }}>
+                <label class="form__label form__label--subscription" for="Quantity-{{ section.id }}">
+                  Subscription Frequency
+                </label>
+                {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
+                  <input type="hidden" name="id" data-productids="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                  {{ form | payment_terms }}
+                {%- endform -%}
+              </div>
             </div>
+            <div data-productId="{{ product.id }}"></div>
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
