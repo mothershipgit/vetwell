@@ -17,6 +17,8 @@ Either way, the most important thing is to make sure any changes in
 the theme code are saved in this github repository, it will contain
 the updated theme code files that will then be used in the live store.
 
+GitHub integration with Shopify Guide: https://shopify.dev/themes/tools/github#how-it-works
+
 ![Diagram](https://cdn.shopify.com/s/files/1/0611/4770/9678/files/diagram-2.jpg?v=1642496925)
 ### Making changes in the Shopify Code Editor
 
