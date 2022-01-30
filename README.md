@@ -1,5 +1,6 @@
 # VetWell
 
+Spoke Theme code changes history (changelog): https://github.com/mothershipgit/vetwell/wiki 
 
 ### How to update the theme
 
