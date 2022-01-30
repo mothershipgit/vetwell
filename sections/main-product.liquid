@@ -90,6 +90,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
+    // Manage the selection of product options
     const handleInputEvent = function (value) {
       document.querySelectorAll('.js-variant-copy').forEach(function (copyElement) {
         copyElement.dataset.hidden = "true"
@@ -109,6 +110,20 @@
         }
       })
     })
+
+    // Manage the position of the "add to basket" buttons
+    const addToCartButtons = document.querySelector('.product-form__add-to-cart');
+
+    window.onscroll = function() {
+      if ( addToCartButtons.offsetTop < document.documentElement.scrollTop + 26 || addToCartButtons.offsetTop < document.body.scrollTop + 26) {
+        addToCartButtons.setAttribute("class","product-form__add-to-cart--sticky");
+      }
+      else {
+        addToCartButtons.setAttribute("class","product-form__add-to-cart");
+      }
+    }
+
+
   })
 </script>
 
@@ -117,7 +132,7 @@
     {%- when 'buy_buttons' -%}
       {%- style -%}
         @media screen and (max-width: 749px) {
-          .product-form--sticky {
+          .product-form__add-to-cart--sticky {
             position: fixed;
             z-index: 100;
             bottom: 0;
@@ -418,7 +433,7 @@
                   <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}" disabled>
 
                     <div class="product-form__buttons">
-                      <div class="product-form--sticky">
+                      <div class="product-form__add-to-cart">
                         <div class="appstle_widget_title product-form--sticky-title" style="display: none;">{{ product.title }}</div>
                         <button
                                 type="submit"

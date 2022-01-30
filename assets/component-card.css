@@ -205,6 +205,47 @@
   order: 1;
 }
 
+/** Card Wrapper: Custom Quick Addons **/
+.card-wrapper .card-information__wrapper {
+  position: relative;
+  padding-bottom: 90px;
+  width: 100%;
+}
+
+.card-wrapper .quick-add-cart {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  position: absolute;
+  top: 70px;
+}
+
+.card-wrapper .quick-add-cart button {
+  padding: 9px 10px 11px;
+  width: 100%;
+}
+
+.card-wrapper .quick-add-cart .select {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 749px) {
+  .card-wrapper .quick-add-cart {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .card-wrapper .card-information__wrapper {
+    padding-bottom: 110px;
+  }
+
+  .card-wrapper .quick-add-cart {
+    top: 75px;
+    width: 80%;
+  }
+}
+
 /*.card-wrapper .full-unstyled-link::after {*/
 /*  content: "";*/
 /*  position: absolute;*/

@@ -15,33 +15,6 @@
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
-{%- style -%}
-    .quick-add-cart {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 20px;
-    }
-    .quick-add-cart button {
-        padding: 9px 10px 11px;
-        width: 100%;
-    }
-    @media screen and (min-width: 990px) {
-        .card-information__wrapper {
-            width: 100%;
-            position: relative;
-            padding-bottom: 50px;
-        }
-        .quick-add-cart {
-            position: absolute;
-            top: 50px;
-            flex-wrap: nowrap;
-        }
-        .quick-add-cart button {
-            width: 230px;
-        }
-    }
-
-{%- endstyle -%}
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -61,15 +34,19 @@
             if (selectInput) {
                 let selectedIndex = null
                 selectInput.addEventListener('change', function (event) {
-                   selectedIndex = event.target.selectedIndex
+                    selectedIndex = event.target.selectedIndex
                     priceElement.textContent = ""
                     priceElement.textContent = selectInput.options[selectedIndex].dataset.price
                     if (productBadge) {
                         productBadge.style.display = 'none'
+                        compareAtPriceElement.style.display = 'none'
+                        priceElement.classList.remove('price-item--sale')
                     }
                     if (selectInput.options[selectedIndex].dataset.priceCompare !== "") {
                         if (productBadge) {
                             productBadge.style.display = 'block'
+                            compareAtPriceElement.style.display = 'block'
+                            priceElement.classList.add('price-item--sale')
                         }
                         compareAtPriceElement.textContent = ""
                         compareAtPriceElement.textContent = selectInput.options[selectedIndex].dataset.priceCompare
@@ -123,11 +100,11 @@
         </p>
       {%- endif -%}
       {% if product_card_product.variants %}
-          <form class="js-quick-add-to-cart" action="/cart/add" method="post">
+          <form class="js-quick-add-to-cart quick-add-cart-wrapper" action="/cart/add" method="post">
               {% assign price = product_card_product.price | money %}
               <div class="
-                  price
-                  {%- if product_card_product.compare_at_price > product_card_product.price %} price--on-sale {% endif -%}s
+                  prices
+                  {%- if product_card_product.compare_at_price > product_card_product.price %} price--on-sale {% endif -%}
                   ">
                   <div class="price__regular">
                       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
@@ -137,7 +114,7 @@
                   </div>
                   <div class="price__sale">
                       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
-                      <span class="price-item price-item--sale price-item--last js-price">
+                      <span class="price-item price-item--last js-price">
                         {{ price }}
                       </span>
                       {%- unless product_card_product.price_varies == false and product_card_product.compare_at_price_varies %}
@@ -166,7 +143,14 @@
                         </div>
                     {% endif %}
                     <input type="hidden" id="quantity" name="quantity" value="1"/>
-                    <button type="submit" name="add" class="button button--primary">Add to cart</button>
+                    <button type="submit" name="add" class="button button--primary">Buy it now</button>
+
+                    {% comment %}
+                        {% form 'product', product_card_product %}
+                            {{ form | payment_button }}
+                        {% endform %}
+                    {% endcomment %}
+
                 </div>
             </form>
         {% else %}

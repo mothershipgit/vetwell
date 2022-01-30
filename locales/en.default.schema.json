@@ -920,6 +920,18 @@
         "header": {
           "content": "Mobile Layout"
         },
+        "mobile_content_position": {
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Bottom"
+          },
+          "label": "Mobile content position"
+        },
         "mobile_content_alignment": {
           "options__1": {
             "label": "Left"
