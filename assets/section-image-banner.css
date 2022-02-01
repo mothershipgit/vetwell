@@ -365,15 +365,18 @@
 }
 
 .banner__box > * + .banner__text {
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
+  line-height: calc(1 + .2 / var(--font-body-scale))
 }
 
 .banner__box > * + .banner__text--medium {
   font-size: 2rem;
+  line-height: calc(1 + .2 / var(--font-body-scale))
 }
 
 .banner__box > * + .banner__text--large {
   font-size: 3rem;
+  line-height: calc(1 + .2 / var(--font-body-scale))
 }
 
 @media screen and (min-width: 750px) {
@@ -413,6 +416,7 @@
 
 .banner__heading {
   margin-bottom: 0;
+  line-height: calc(1 + .1/max(1,var(--font-heading-scale)));
 }
 
 .banner__box .banner__heading + * {
