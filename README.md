@@ -62,7 +62,7 @@ the changes via git
 
 These are the steps to put the update theme code live:
 
-1. Download the code files from this repository by clicking in the "Code" tab, then click on "Code" > "Download Zip"
+1. Download the code files from this repository by clicking in the "Code" tab, then click on "Code" > "Download Zip" (it will send a link to the admin email address)
 ![Screenshot 2022-02-03 at 13 43 52](https://user-images.githubusercontent.com/97894133/152345178-a775f001-9f11-46bb-bf94-6a5df7e185f3.jpg)
 
 2. Log in to the production store (https://vetwell-scientific.myshopify.com/admin/themes?channel=true)
