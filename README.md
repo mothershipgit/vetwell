@@ -29,6 +29,14 @@ will be saved in this repository.
 
 Read more about connecting Github with the store: https://shopify.dev/themes/tools/github
 
+In this page, if you click on the commits "commit" link:
+![Screenshot 2022-02-03 at 13 41 20](https://user-images.githubusercontent.com/97894133/152344928-a85a314e-c70c-4abc-95f2-d026fc1bbf34.jpg)
+
+
+You will then see any changes made in the theme editor in Shopify being saved into this repository. This way we will always make sure the code is saved after any updates.
+![Screenshot 2022-02-03 at 13 39 29](https://user-images.githubusercontent.com/97894133/152344572-ec6d8bb5-c2f5-44f0-8478-6d70413141f2.jpg)
+
+
 Read Shopify's documentation on making changes via the code editor: https://shopify.dev/themes/tools/code-editor
 
 ### Making changes in an external code editor (VSCode, Webstorm...)
