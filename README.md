@@ -58,16 +58,18 @@ Note: pushing changes automatically will not trigger the github app installed
 in the store to store the changes in this repo. You will have to push
 the changes via git
 
-### Publishing the new theme live
+### Publishing the new theme into production
 
 These are the steps to put the update theme code live:
 
 1. Download the code files from this repository by clicking in the "Code" tab, then click on "Code" > "Download Zip"
-2. Log in to the production store
-3. In the sidebar, click "Online Store"
-4. Go to the "Theme Library" section and click "Add Theme" > "Connect from github"
-5. It will prompt you to login to the github account
-6. Rename the theme to the latest version following this rule `V0122.0 (01=month, 22=year, .0=version)`
+![Screenshot 2022-02-03 at 13 43 52](https://user-images.githubusercontent.com/97894133/152345178-a775f001-9f11-46bb-bf94-6a5df7e185f3.jpg)
+
+2. Log in to the production store (https://vetwell-scientific.myshopify.com/admin/themes?channel=true)
+3. Go to the "Theme Library" section and click "Add Theme" > "Upload zip file"
+![Screenshot 2022-02-03 at 13 45 08](https://user-images.githubusercontent.com/97894133/152345377-bfb98efa-c4c1-44fd-9cf4-d4f7e8879d57.jpg)
+4. Rename the theme to the latest version following this rule `V0122.0 (01=month, 22=year, .0=version)`
+5. Publish the theme
 
 ### Give access to a developer to make changes to the code
 
