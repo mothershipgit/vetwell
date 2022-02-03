@@ -69,7 +69,8 @@ These are the steps to put the update theme code live:
 3. Go to the "Theme Library" section and click "Add Theme" > "Upload zip file"
 ![Screenshot 2022-02-03 at 13 45 08](https://user-images.githubusercontent.com/97894133/152345377-bfb98efa-c4c1-44fd-9cf4-d4f7e8879d57.jpg)
 4. Rename the theme to the latest version following this rule `V0122.0 (01=month, 22=year, .0=version)`
-5. Publish the theme
+5. Click on "Preview" to see this theme applied to the site in the preview mode. It is recommended to this step prior to publishing the theme to make sure everything looks as expected
+6. Publish the theme
 
 ### Give access to a developer to make changes to the code
 
