@@ -13,7 +13,9 @@
         "d9c33adc-c189-45f9-bfdf-020b53b7b362": {
           "type": "text",
           "settings": {
-            "text": "Natural joint care for bouncier, happier dogs"
+            "text": "Natural joint care for bouncier, happier dogs",
+            "text_style": "body",
+            "text_size": "small"
           }
         },
         "button": {
@@ -34,13 +36,18 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/VW_HM_1600x1000_V3_fa6ef7f7-aa83-452f-afe5-19515c42cdbf.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/VW_HM_MOBILE_V1_800W_6bd7f552-1f92-4f70-8950-5b14c4a7a671.jpg",
+        "image_overlay_opacity": 20,
         "image_height": "large",
         "adapt_height_first_image": true,
-        "desktop_text_box_position": "flex-start",
+        "desktop_content_position": "middle-right",
         "show_text_box": false,
-        "image_overlay_opacity": 20,
+        "desktop_content_alignment": "right",
         "color_scheme": "accent-2",
-        "stack_images_on_mobile": true,
+        "mobile_content_position": "top",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
@@ -160,7 +167,8 @@
       "blocks": {
         "1638282408c4befad8-1": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "1638282408c4befad8-2": {
           "type": "text",
@@ -171,7 +179,8 @@
         },
         "1638282408c4befad8-3": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "1638282408c4befad8-4": {
           "type": "variant_picker",
@@ -181,7 +190,8 @@
         },
         "1638282408c4befad8-5": {
           "type": "quantity_selector",
-          "settings": {}
+          "settings": {
+          }
         },
         "1638282408c4befad8-6": {
           "type": "buy_buttons",
