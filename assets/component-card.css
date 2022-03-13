@@ -220,6 +220,10 @@
   top: 70px;
 }
 
+.card-wrapper .quick-add-cart--with-ratings {
+  padding-top: 10px;
+}
+
 .card-wrapper .quick-add-cart button {
   padding: 9px 10px 11px;
   width: 100%;
