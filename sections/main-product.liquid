@@ -286,10 +286,10 @@
               </quantity-input>
 
               <div {{ block.shopify_attributes }}>
-                <label class="form__label form__label--subscription" for="Subscription-{{ section.id }}">
-                  Subscription Frequency
-                </label>
                 {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
+                  <label class="form__label form__label--subscription" for="Subscription-{{ section.id }}">
+                    Subscription Frequency
+                  </label>
                   <input type="hidden" name="id" data-productids="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
                   {{ form | payment_terms }}
                 {%- endform -%}
