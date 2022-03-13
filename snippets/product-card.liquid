@@ -59,7 +59,7 @@
 </script>
 
 {% assign variantIsAvailable = false %}
-{% assign showRatingsComponent = show_rating and product_card_product.metafields.reviews.rating.value != blank %}
+{% assign showRatingsComponent = product_card_product.metafields.reviews.rating.value != blank %}
 
 <div class="card-wrapper">
   <div class="card-information">
