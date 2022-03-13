@@ -291,7 +291,7 @@
                 </label>
                 {%- form 'product', product, data-productid: product.id, id: 'product-form-installment', class: 'installment caption-large' -%}
                   <input type="hidden" name="id" data-productids="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
-                  {% comment %}{{ form | payment_terms }}{% endcomment %}
+                  {{ form | payment_terms }}
                 {%- endform -%}
               </div>
             </div>
