@@ -21,8 +21,6 @@
         const cards = document.querySelectorAll('.card-wrapper')
 
         cards.forEach(function (card) {
-            console.log("Card: ", card)
-
             const form = card.querySelector('form')
             const selectInput = form.querySelector('.select__select')
             const compareAtPriceElement = form.querySelector('.js-compare-at-price')
@@ -61,9 +59,6 @@
 </script>
 
 {% assign variantIsAvailable = false %}
-
-
-<h1>HELLO</h1>
 
 <div class="card-wrapper">
   <div class="card-information">
