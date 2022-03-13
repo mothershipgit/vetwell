@@ -221,7 +221,7 @@
 }
 
 .card-wrapper .quick-add-cart--with-ratings {
-  padding-top: 10px;
+  padding-top: 25px;
 }
 
 .card-wrapper .quick-add-cart button {
@@ -230,7 +230,7 @@
 }
 
 .card-wrapper .quick-add-cart .select {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 749px) {
