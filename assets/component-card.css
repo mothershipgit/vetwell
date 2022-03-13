@@ -230,12 +230,17 @@
 }
 
 .card-wrapper .quick-add-cart .select {
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 749px) {
   .card-wrapper .quick-add-cart {
     width: 90%;
+  }
+
+
+  .card-wrapper .quick-add-cart--with-ratings {
+    padding-top: 10px;
   }
 }
 
