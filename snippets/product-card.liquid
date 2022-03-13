@@ -59,11 +59,11 @@
 </script>
 
 {% assign variantIsAvailable = false %}
-{% assign hasRatingsValue = false %}
-{% if product_card_product.metafields.reviews.rating.value %}
-    {% assign hasRatingsValue = true %}
+{% assign showRatingsComponent = false  %}
+
+{% if show_rating and product_card_product.metafields.reviews.rating.value != blank %}
+    {% assign showRatingsComponent = true  %}
 {% endif %}
-{% assign showRatingsComponent = show_rating and hasRatingsValue %}
 {{ showRatingsComponent }}
 <div class="card-wrapper">
   <div class="card-information">
